@@ -329,8 +329,12 @@ h2.catalog-heading {
 
 	text-transform: uppercase;
 	letter-spacing: 4px;
+	text-decoration: none;
 
 	cursor: pointer;
+}
+h2.catalog-heading a {
+	color: #000000;
 }
 .inner-page h2.catalog-heading {
 	margin-bottom: 20px;
