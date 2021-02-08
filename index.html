@@ -149,22 +149,22 @@
 			</ul>
 		</div>
 		<section class="services">
-			<div class="wrapper-center flex-wrapper">
+			<div class="wrapper-center flex-wrapper tabs">
 				<h2 class="visually-hidden">Услуги</h2>
-				<ul class="services-list">
-					<li class="services-item"><a href="" class="services-link">Доставка</a></li>
-					<li class="services-item"><a href="" class="services-link">Гарантия</a></li>
-					<li class="services-item"><a href="" class="services-link active">Кредит</a></li>
+				<ul class="services-list tabs__caption">
+					<li class="services-item"><div class="services-link">Доставка</div></li>
+					<li class="services-item"><div class="services-link">Гарантия</div></li>
+					<li class="services-item active"><div class="services-link">Кредит</div></li>
 				</ul>
-				<div class="services-info delivery display-none">
+				<div class="services-info delivery display-none tabs__content">
 					<h3 class="services-heading delivery-heading">Доставка</h3>
 					<p class="services-text delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
 				</div>
-				<div class="services-info warranty display-none">
+				<div class="services-info warranty display-none tabs__content">
 					<h3 class="services-heading warranty-heading">Гарантия</h3>
 					<p class="services-text warranty-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
 				</div>
-				<div class="services-info credit">
+				<div class="services-info credit tabs__content active">
 					<h3 class="services-heading credit-heading">Кредит</h3>
 					<p class="services-text credit-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для нашего банка, разумеется.</p>
 				</div>
@@ -308,6 +308,7 @@
 		<img src="img/modal-map.jpg" alt="г. Москва, ул. Строителей, 15" width="960" height="559">
 		<button class="modal-close" type="button">Закрыть</button>
 	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/tiny-slider.js"></script>
 	<script src="js/slider.js"></script>
 	<script src="js/popup.js"></script>

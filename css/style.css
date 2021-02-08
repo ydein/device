@@ -6,6 +6,7 @@
 */
 
 @import "my_tiny-slider.css";
+@import "my_tabs.css";
 @font-face {
   font-family: 'gilroylight';
   src: local('gilroylight'),
@@ -728,7 +729,7 @@ ul.services-list {
 	margin-bottom: 37px;
 	overflow: hidden;
 }
-a.services-link {
+.services-link {
 	display: inline-block;
 	box-sizing: border-box;
 	min-width: 160px;
@@ -749,12 +750,12 @@ a.services-link {
 	text-transform: uppercase;
 	text-align: center;
 }
-a.services-link:hover,
-a.services-link:focus {
+.services-link:hover,
+.services-link:focus {
 	line-height: 24px;
 }
-a.services-link:active,
-.services-link.active {
+.services-link:active,
+.active .services-link {
 	min-width: 286px;
 
 	line-height: 24px;
