@@ -1,0 +1,43 @@
+.tns-horizontal.tns-subpixel>.tns-item {
+  display: flex;
+}
+.tns-nav {
+    order: 1;
+    position: absolute;
+    bottom: 480px;
+    right: 65px;
+
+    z-index: 1;
+}
+.tns-nav-active::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #050505;
+    border-radius: 50%;
+}
+.tns-nav [aria-controls="tns1"] {
+    display: inline-block;
+    position: relative;
+    width: 11px;
+    height: 11px;
+
+    border: 1px solid #050505;
+    border-radius: 50%;
+
+    margin-right: 19px;
+    padding: 7px;
+
+    cursor: pointer;
+    background-color: inherit;
+    outline: none;
+}
+.tns-controls {
+    display: none;
+}
+.tns-outer [data-action] {
+  display: none;
+}
